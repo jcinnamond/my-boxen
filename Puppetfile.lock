@@ -9,6 +9,11 @@ GITHUBTARBALL
     dnsmasq (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-emacs
+  specs:
+    emacs (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
     gcc (1.0.0)
@@ -39,6 +44,11 @@ GITHUBTARBALL
     nodejs (2.2.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
     repository (2.0.2)
@@ -54,6 +64,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-zsh
+  specs:
+    zsh (1.0.0)
+
+GITHUBTARBALL
   remote: cprice-puppet/puppetlabs-inifile
   specs:
     inifile (0.9.0)
@@ -66,6 +81,7 @@ GITHUBTARBALL
 DEPENDENCIES
   boxen (= 2.1.0)
   dnsmasq (= 1.0.0)
+  emacs (= 1.1.0)
   gcc (= 1.0.0)
   git (= 1.2.2)
   homebrew (= 1.1.2)
@@ -73,8 +89,10 @@ DEPENDENCIES
   inifile (= 0.9.0)
   nginx (= 1.4.0)
   nodejs (= 2.2.0)
+  osx (= 1.0.0)
   repository (= 2.0.2)
   ruby (= 4.1.0)
   stdlib (= 4.0.2)
   sudo (= 1.0.0)
+  zsh (= 1.0.0)
 
